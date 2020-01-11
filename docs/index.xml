@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on ECMAScript</title>
+    <title>首页 on ECMAScript</title>
     <link>https://hello-world-example.github.io/ECMAScript/</link>
-    <description>Recent content in Introduction on ECMAScript</description>
+    <description>Recent content in 首页 on ECMAScript</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="https://hello-world-example.github.io/ECMAScript/index.xml" rel="self" type="application/rss+xml" />
@@ -15,10 +15,18 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hello-world-example.github.io/ECMAScript/_sidebar/</guid>
-      <description> 简介
- 示例
- 默认带目录 设置不带目录 特有功能
-   </description>
+      <description> 循环语句  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hello-world-example.github.io/ECMAScript/docs/For/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hello-world-example.github.io/ECMAScript/docs/For/</guid>
+      <description>循环语句 for&amp;hellip;in  遍历数组下标，obj 的 key
+ // 对象遍历 let obj = {a: 111, b: 222, c: 333}; for(let key in obj) { console.log(key, obj[key]); } &amp;gt; &amp;#34;a&amp;#34; 111 &amp;gt; &amp;#34;b&amp;#34; 222 &amp;gt; &amp;#34;c&amp;#34; 333 // 数组遍历 let array = [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;]; for(let index in array) { console.log(index, array[index]); } &amp;gt; &amp;#34;0&amp;#34; &amp;#34;a&amp;#34; &amp;gt; &amp;#34;1&amp;#34; &amp;#34;b&amp;#34; &amp;gt; &amp;#34;2&amp;#34; &amp;#34;c&amp;#34;  for&amp;hellip;of  遍历数组元素，无法直接遍历 obj，需要搭配 Object.keys(obj)
+ // 遍历数组 let array = [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;]; for (let item of array) { console.</description>
     </item>
     
     <item>
@@ -27,37 +35,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hello-world-example.github.io/ECMAScript/docs/hidden/</guid>
-      <description>This page is hidden in menu Quondam non pater est dignior ille Eurotas Latent te facies Lorem markdownum arma ignoscas vocavit quoque ille texit mandata mentis ultimus, frementes, qui in vel. Hippotades Peleus pennas conscia cuiquam Caeneus quas.
+      <description>bookHidden: true
+This page is hidden in menu Quondam non pater est dignior ille Eurotas Latent te facies Lorem markdownum arma ignoscas vocavit quoque ille texit mandata mentis ultimus, frementes, qui in vel. Hippotades Peleus pennas conscia cuiquam Caeneus quas.
  Pater demittere evincitque reddunt Maxime adhuc pressit huc Danaas quid freta Soror ego Luctus linguam saxa ultroque prior Tatiumque inquit Saepe liquitur subita superata dederat Anius sudor  Cum honorum Latona O fallor in sustinui iussorum equidem.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hello-world-example.github.io/ECMAScript/docs/shortcodes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hello-world-example.github.io/ECMAScript/docs/shortcodes/</guid>
-      <description>各种样式 折叠 Default {{&amp;lt; expand &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}}  Expand ↕  Markdown content Lorem markdownum insigne&amp;hellip;    With Custom Label {{&amp;lt; expand &amp;#34;Custom Label&amp;#34; &amp;#34;...&amp;#34; &amp;gt;}} ## Markdown content Lorem markdownum insigne... {{&amp;lt; /expand &amp;gt;}}  Custom Label ...  Markdown content Lorem markdownum insigne. Olympo signis Delphis! Retexi Nereius nova develat stringit, frustra Saturnius uteroque inter! Oculis non ritibus Telethusa protulit, sed sed aere valvis inhaesuro Pallas animam: qui quid, ignes.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hello-world-example.github.io/ECMAScript/docs/with-toc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hello-world-example.github.io/ECMAScript/docs/with-toc/</guid>
-      <description>默认带导航 Cognita laeva illo fracta Lorem markdownum pavent auras, surgit nunc cingentibus libet Laomedonque que est. Pastor An arbor filia foedat, ne fugit aliter, per. Helicona illas et callida neptem est Oresitrophos caput, dentibus est venit. Tenet reddite famuli praesentem fortibus, quaeque vis foret si frondes gelidos gravidae circumtulit inpulit armenta nativum.
- Te at cruciabere vides rubentis manebo Maturuit in praetemptat ruborem ignara postquam habitasse Subitarum supplevit quoque fontesque venabula spretis modo Montis tot est mali quasque gravis Quinquennem domus arsit ipse Pellem turis pugnabant locavit  Natus quaerere Pectora et sine mulcere, coniuge dum tincta incurvae.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hello-world-example.github.io/ECMAScript/docs/without-toc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hello-world-example.github.io/ECMAScript/docs/without-toc/</guid>
-      <description>不使用导航 Tanto oblite Lorem markdownum pectora novis patenti igne sua opus aurae feras materiaque illic demersit imago et aristas questaque posset. Vomit quoque suo inhaesuro clara. Esse cumque, per referri triste. Ut exponit solisque communis in tendens vincetis agisque iamque huic bene ante vetat omina Thebae rates. Aeacus servat admonitu concidit, ad resimas vultus et rugas vultu dignamque Siphnon.
-Quam iugulum regia simulacra, plus meruit humo pecorumque haesit, ab discedunt dixit: ritu pharetramque.</description>
     </item>
     
   </channel>
