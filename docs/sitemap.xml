@@ -8,12 +8,17 @@
   </url>
   
   <url>
-    <loc>https://hello-world-example.github.io/ECMAScript/docs/For/</loc>
+    <loc>https://hello-world-example.github.io/ECMAScript/docs/Global_Objects/Object/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://hello-world-example.github.io/ECMAScript/docs/hidden/</loc>
+    <loc>https://hello-world-example.github.io/ECMAScript/docs/Global_Objects/Promise/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://hello-world-example.github.io/ECMAScript/docs/Statements/For/</loc>
     <priority>0</priority>
   </url>
   

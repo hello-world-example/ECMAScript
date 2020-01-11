@@ -15,29 +15,38 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hello-world-example.github.io/ECMAScript/_sidebar/</guid>
-      <description> 循环语句  </description>
+      <description> Statements  循环语句  内置对象  Object Promise   </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://hello-world-example.github.io/ECMAScript/docs/For/</link>
+      <link>https://hello-world-example.github.io/ECMAScript/docs/Global_Objects/Object/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hello-world-example.github.io/ECMAScript/docs/For/</guid>
+      <guid>https://hello-world-example.github.io/ECMAScript/docs/Global_Objects/Object/</guid>
+      <description> Object 对象  JavaScript 参考 &amp;gt; JavaScript 标准内置对象 &amp;gt; Object
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hello-world-example.github.io/ECMAScript/docs/Global_Objects/Promise/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hello-world-example.github.io/ECMAScript/docs/Global_Objects/Promise/</guid>
+      <description> Promise  JavaScript 参考 &amp;gt; JavaScript 标准内置对象 &amp;gt; Promise
+ </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://hello-world-example.github.io/ECMAScript/docs/Statements/For/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://hello-world-example.github.io/ECMAScript/docs/Statements/For/</guid>
       <description>循环语句 for&amp;hellip;in  遍历数组下标，obj 的 key
  // 对象遍历 let obj = {a: 111, b: 222, c: 333}; for(let key in obj) { console.log(key, obj[key]); } &amp;gt; &amp;#34;a&amp;#34; 111 &amp;gt; &amp;#34;b&amp;#34; 222 &amp;gt; &amp;#34;c&amp;#34; 333 // 数组遍历 let array = [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;]; for(let index in array) { console.log(index, array[index]); } &amp;gt; &amp;#34;0&amp;#34; &amp;#34;a&amp;#34; &amp;gt; &amp;#34;1&amp;#34; &amp;#34;b&amp;#34; &amp;gt; &amp;#34;2&amp;#34; &amp;#34;c&amp;#34;  for&amp;hellip;of  遍历数组元素，无法直接遍历 obj，需要搭配 Object.keys(obj)
  // 遍历数组 let array = [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;]; for (let item of array) { console.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://hello-world-example.github.io/ECMAScript/docs/hidden/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://hello-world-example.github.io/ECMAScript/docs/hidden/</guid>
-      <description>bookHidden: true
-This page is hidden in menu Quondam non pater est dignior ille Eurotas Latent te facies Lorem markdownum arma ignoscas vocavit quoque ille texit mandata mentis ultimus, frementes, qui in vel. Hippotades Peleus pennas conscia cuiquam Caeneus quas.
- Pater demittere evincitque reddunt Maxime adhuc pressit huc Danaas quid freta Soror ego Luctus linguam saxa ultroque prior Tatiumque inquit Saepe liquitur subita superata dederat Anius sudor  Cum honorum Latona O fallor in sustinui iussorum equidem.</description>
     </item>
     
   </channel>
