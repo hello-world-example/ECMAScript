@@ -25,8 +25,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://hello-world-example.github.io/ECMAScript/docs/Global_Objects/Promise/</guid>
-      <description> Promise  JavaScript 参考 &amp;gt; JavaScript 标准内置对象 &amp;gt; Promise
- </description>
+      <description>Promise   JavaScript 参考 &amp;gt; JavaScript 标准内置对象 &amp;gt; Promise ECMAScript 6 入门 Promise 对象   Promise 简单说就是一个容器，里面保存着某个未来才会结束的事件，是异步编程的一种解决方案，比传统的 &amp;ldquo;回调函数和事件&amp;rdquo; 解决方案更合理和更强大。优点在于将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数。
+ 有三种状态：pending（进行中）、fulfilled（已成功 resolve）、rejected（已失败） 状态变化只能从 pending 变为 fulfilled( resolve) 、从 pending变为 rejected 一旦状态改变，就不会再变，再对 Promise 对象添加回调函数，也会立即得到这个结果  then / catch / finally const getJSON = function(url) { const promise = new Promise(function(resolve, reject){ const handler = function() { if (this.readyState !== 4) { return; } if (this.status === 200) { // 把正确的结果通知出去  resolve(this.</description>
     </item>
     
     <item>

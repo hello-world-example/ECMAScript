@@ -136,6 +136,10 @@ https://github.com/alex-shpak/hugo-book
 <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">key</span> <span style="color:#66d9ef">of</span> Object.<span style="color:#a6e22e">keys</span>(<span style="color:#a6e22e">obj</span>)) {
   <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">key</span>, <span style="color:#a6e22e">obj</span>[<span style="color:#a6e22e">key</span>]);
 }
+
+<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> [<span style="color:#a6e22e">key</span>, <span style="color:#a6e22e">value</span>] <span style="color:#66d9ef">of</span> Object.<span style="color:#a6e22e">entries</span>(<span style="color:#a6e22e">obj</span>)) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">key</span>, <span style="color:#a6e22e">value</span>);
+}
 </code></pre></div>
 <h2 id="map-filter-foreach">map() / filter() / forEach()</h2>
 
@@ -189,11 +193,19 @@ https://github.com/alex-shpak/hugo-book
 
 <ul>
 <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements">JavaScript 参考 &gt; 语句和声明</a></li>
+<li><a href="http://es6.ruanyifeng.com/#docs/iterator">Iterator 和 for&hellip;of 循环</a></li>
 </ul>
 </article>
 
       
-<div class="book-footer justify-end">
+<div class="book-footer justify-between">
+  
+  <div>
+    
+    <a href="https://github.com/hello-world-example/ECMAScript/commit/013b7705db061c7545b300dbfc93ae4be18935a1" title='Last modified Jan 11, 2020 by 杨凯彬' target="_blank" rel="noopener">
+      <img src="/ECMAScript/svg/calendar.svg" alt="Changed" /> Jan 11, 2020
+    </a>
+  </div>
   
   
   <div>

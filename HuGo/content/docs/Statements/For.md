@@ -40,6 +40,10 @@ let obj = {'a':111,'b':222,'c':322};
 for (let key of Object.keys(obj)) {
   console.log(key, obj[key]);
 }
+
+for (let [key, value] of Object.entries(obj)) {
+  console.log(key, value);
+}
 ```
 
 ## map() / filter() / forEach()
@@ -96,3 +100,4 @@ do{
 ## Read More
 
 - [JavaScript 参考 > 语句和声明](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements)
+- [Iterator 和 for...of 循环](http://es6.ruanyifeng.com/#docs/iterator)
